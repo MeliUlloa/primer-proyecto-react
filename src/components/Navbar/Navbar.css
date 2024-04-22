@@ -1,0 +1,16 @@
+.navbar {
+    background: #dda1d5;
+    color: black;
+    padding: 1rem;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
