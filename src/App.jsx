@@ -1,21 +1,22 @@
+// src/App.jsx
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
-import MainContent from './components/MainContent/MainContent';
-import Sidebar from './components/Sidebar/Sidebar';
-import Footer from './components/Footer/Footer';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import SizeAvatars from './components/SizeAvatars/SizeAvatars';
 import './App.css';
 
-const App = () => {
+function App() {
   return (
-    <div className="app-container">
+     <div className="profile">
       <Navbar />
-      <div className="content">
-        <Sidebar />
-        <MainContent />
-      </div>
-      <Footer />
+      <About />
+      <SizeAvatars />
+      <Projects />
+      <Contact />
     </div>
   );
-};
+}
 
 export default App;

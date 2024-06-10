@@ -1,0 +1,21 @@
+.projects {
+    background-color: #f4f4f4;
+    padding: 2rem;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .project {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .project h3 {
+    color: #333;
+  }
+  
